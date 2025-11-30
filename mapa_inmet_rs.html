@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e7b36c62128e80a59d75cedf81d5dcea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e7b36c62128e80a59d75cedf81d5dcea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e7b36c62128e80a59d75cedf81d5dcea = L.map(
+                "map_e7b36c62128e80a59d75cedf81d5dcea",
+                {
+                    center: [-30.146821821176474, -52.517446538431365],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7c297988bb79ed1a74426997b77d62b7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7c297988bb79ed1a74426997b77d62b7.addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+            var circle_marker_cf021e6bdb793122a9bee6170fc1dafd = L.circleMarker(
+                [-31.87472221, -54.11972221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_dad51ffd8490a3ca7c5c81d4a112279f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eb88bf5efeca5448282831848747341f = $(`<div id="html_eb88bf5efeca5448282831848747341f" style="width: 100.0%; height: 100.0%;"><b>ACEGUÁ</b><br>Código: B828<br>Chuva 24h: 0.0 mm<br>Lat: -31.8747 | Lon: -54.1197</div>`)[0];
+                popup_dad51ffd8490a3ca7c5c81d4a112279f.setContent(html_eb88bf5efeca5448282831848747341f);
+            
+        
+
+        circle_marker_cf021e6bdb793122a9bee6170fc1dafd.bindPopup(popup_dad51ffd8490a3ca7c5c81d4a112279f)
+        ;
+
+        
+    
+    
+            var circle_marker_65099c797dbe52940a44dbd0d427d92d = L.circleMarker(
+                [-29.70916666, -55.52555554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_444987b60e8efecfa7f7e27c06df62d1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_753936797d221bc35418c0c4acf24080 = $(`<div id="html_753936797d221bc35418c0c4acf24080" style="width: 100.0%; height: 100.0%;"><b>ALEGRETE</b><br>Código: A826<br>Chuva 24h: 0.0 mm<br>Lat: -29.7092 | Lon: -55.5256</div>`)[0];
+                popup_444987b60e8efecfa7f7e27c06df62d1.setContent(html_753936797d221bc35418c0c4acf24080);
+            
+        
+
+        circle_marker_65099c797dbe52940a44dbd0d427d92d.bindPopup(popup_444987b60e8efecfa7f7e27c06df62d1)
+        ;
+
+        
+    
+    
+            var circle_marker_971316bb871f1b95c3b9d2cb597aec83 = L.circleMarker(
+                [-31.34777777, -54.01333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_ef832bbaa8fb364dd94ff242fb8f6bd8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_de23e513edd57fd03cf9eaf28e78e1fe = $(`<div id="html_de23e513edd57fd03cf9eaf28e78e1fe" style="width: 100.0%; height: 100.0%;"><b>BAGÉ</b><br>Código: A827<br>Chuva 24h: 0.0 mm<br>Lat: -31.3478 | Lon: -54.0133</div>`)[0];
+                popup_ef832bbaa8fb364dd94ff242fb8f6bd8.setContent(html_de23e513edd57fd03cf9eaf28e78e1fe);
+            
+        
+
+        circle_marker_971316bb871f1b95c3b9d2cb597aec83.bindPopup(popup_ef832bbaa8fb364dd94ff242fb8f6bd8)
+        ;
+
+        
+    
+    
+            var circle_marker_97b5f043bf2a411d805f62aaf19be5be = L.circleMarker(
+                [-31.30555555, -54.01333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_67ce30f4d02feef4d37d67e824bc63bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5471237e774dbb3c28d23c52ea96ff81 = $(`<div id="html_5471237e774dbb3c28d23c52ea96ff81" style="width: 100.0%; height: 100.0%;"><b>BAGÉ - CENTRO</b><br>Código: B827<br>Chuva 24h: 0.0 mm<br>Lat: -31.3056 | Lon: -54.0133</div>`)[0];
+                popup_67ce30f4d02feef4d37d67e824bc63bc.setContent(html_5471237e774dbb3c28d23c52ea96ff81);
+            
+        
+
+        circle_marker_97b5f043bf2a411d805f62aaf19be5be.bindPopup(popup_67ce30f4d02feef4d37d67e824bc63bc)
+        ;
+
+        
+    
+    
+            var circle_marker_e7b5ddfae43052e08772f92740a7edee = L.circleMarker(
+                [-30.01833332, -52.93888888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_05fcbadfca1fa341b9f646d5cb8912bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_82e1a22ba4c2d65ea0038cab7d45d356 = $(`<div id="html_82e1a22ba4c2d65ea0038cab7d45d356" style="width: 100.0%; height: 100.0%;"><b>CACHOEIRA DO SUL</b><br>Código: B822<br>Chuva 24h: 0.0 mm<br>Lat: -30.0183 | Lon: -52.9389</div>`)[0];
+                popup_05fcbadfca1fa341b9f646d5cb8912bc.setContent(html_82e1a22ba4c2d65ea0038cab7d45d356);
+            
+        
+
+        circle_marker_e7b5ddfae43052e08772f92740a7edee.bindPopup(popup_05fcbadfca1fa341b9f646d5cb8912bc)
+        ;
+
+        
+    
+    
+            var circle_marker_7a61968a0f02b287b4e4711eede84dde = L.circleMarker(
+                [-29.95138888, -51.12416666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_52280f90995cf1d2fd318a8d96aac45d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d5c0b94646b59b37049b86136d89065b = $(`<div id="html_d5c0b94646b59b37049b86136d89065b" style="width: 100.0%; height: 100.0%;"><b>CACHOEIRINHA</b><br>Código: B808<br>Chuva 24h: 0.0 mm<br>Lat: -29.9514 | Lon: -51.1242</div>`)[0];
+                popup_52280f90995cf1d2fd318a8d96aac45d.setContent(html_d5c0b94646b59b37049b86136d89065b);
+            
+        
+
+        circle_marker_7a61968a0f02b287b4e4711eede84dde.bindPopup(popup_52280f90995cf1d2fd318a8d96aac45d)
+        ;
+
+        
+    
+    
+            var circle_marker_74e407f1b6c2a7ccc0cf9f7711fc42a1 = L.circleMarker(
+                [-29.04916666, -50.14972221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_f362e62983f0b3ea90289ffd9ffb6b72 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e7643377d19506bd54b8d50d85efd133 = $(`<div id="html_e7643377d19506bd54b8d50d85efd133" style="width: 100.0%; height: 100.0%;"><b>CAMBARA DO SUL</b><br>Código: A897<br>Chuva 24h: 0.0 mm<br>Lat: -29.0492 | Lon: -50.1497</div>`)[0];
+                popup_f362e62983f0b3ea90289ffd9ffb6b72.setContent(html_e7643377d19506bd54b8d50d85efd133);
+            
+        
+
+        circle_marker_74e407f1b6c2a7ccc0cf9f7711fc42a1.bindPopup(popup_f362e62983f0b3ea90289ffd9ffb6b72)
+        ;
+
+        
+    
+    
+            var circle_marker_8a35a5014d94e6283362585648881eec = L.circleMarker(
+                [-29.67416666, -51.06416666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_23e44f4c7b87be0b8959304c45bece78 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a1cce557862980521ee9bc090221480a = $(`<div id="html_a1cce557862980521ee9bc090221480a" style="width: 100.0%; height: 100.0%;"><b>CAMPO BOM</b><br>Código: A884<br>Chuva 24h: 0.0 mm<br>Lat: -29.6742 | Lon: -51.0642</div>`)[0];
+                popup_23e44f4c7b87be0b8959304c45bece78.setContent(html_a1cce557862980521ee9bc090221480a);
+            
+        
+
+        circle_marker_8a35a5014d94e6283362585648881eec.bindPopup(popup_23e44f4c7b87be0b8959304c45bece78)
+        ;
+
+        
+    
+    
+            var circle_marker_9950a5724b11264529231a342c4e342c = L.circleMarker(
+                [-29.36888888, -50.82722221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_019a1beb00c0e2924b80db5b746615a8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_43aa7c6ce1887a37e518c54a6a849fda = $(`<div id="html_43aa7c6ce1887a37e518c54a6a849fda" style="width: 100.0%; height: 100.0%;"><b>CANELA</b><br>Código: A879<br>Chuva 24h: 0.0 mm<br>Lat: -29.3689 | Lon: -50.8272</div>`)[0];
+                popup_019a1beb00c0e2924b80db5b746615a8.setContent(html_43aa7c6ce1887a37e518c54a6a849fda);
+            
+        
+
+        circle_marker_9950a5724b11264529231a342c4e342c.bindPopup(popup_019a1beb00c0e2924b80db5b746615a8)
+        ;
+
+        
+    
+    
+            var circle_marker_cc68c41aa7f84052212382c3aa1f20df = L.circleMarker(
+                [-31.40333333, -52.70083333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3909dbf5f1c07198ddaaeb0d4705296d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8d7b3b4ab0675171005ee42d5f87a9eb = $(`<div id="html_8d7b3b4ab0675171005ee42d5f87a9eb" style="width: 100.0%; height: 100.0%;"><b>CANGUÇU</b><br>Código: A811<br>Chuva 24h: 0.0 mm<br>Lat: -31.4033 | Lon: -52.7008</div>`)[0];
+                popup_3909dbf5f1c07198ddaaeb0d4705296d.setContent(html_8d7b3b4ab0675171005ee42d5f87a9eb);
+            
+        
+
+        circle_marker_cc68c41aa7f84052212382c3aa1f20df.bindPopup(popup_3909dbf5f1c07198ddaaeb0d4705296d)
+        ;
+
+        
+    
+    
+            var circle_marker_5ee92846f2544fcb2c24fae344c4f50c = L.circleMarker(
+                [-29.1961111, -51.18638888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_36cbbc44bd3b95330acfa43a6a3040e7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_79ad8396c8761944140bf53fc19935ea = $(`<div id="html_79ad8396c8761944140bf53fc19935ea" style="width: 100.0%; height: 100.0%;"><b>CAXIAS DO SUL - AEROPORTO</b><br>Código: B818<br>Chuva 24h: 0.0 mm<br>Lat: -29.1961 | Lon: -51.1864</div>`)[0];
+                popup_36cbbc44bd3b95330acfa43a6a3040e7.setContent(html_79ad8396c8761944140bf53fc19935ea);
+            
+        
+
+        circle_marker_5ee92846f2544fcb2c24fae344c4f50c.bindPopup(popup_36cbbc44bd3b95330acfa43a6a3040e7)
+        ;
+
+        
+    
+    
+            var circle_marker_ef25a4581e33e34f6077d735d3e49d7a = L.circleMarker(
+                [-28.87416666, -50.97555554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_81aed2633f52cb1b81d81858dc4f7590 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_97a7efd18031570a50d2dc2ac2a4ffd0 = $(`<div id="html_97a7efd18031570a50d2dc2ac2a4ffd0" style="width: 100.0%; height: 100.0%;"><b>CAXIAS DO SUL - CRIÚVA</b><br>Código: B817<br>Chuva 24h: 0.0 mm<br>Lat: -28.8742 | Lon: -50.9756</div>`)[0];
+                popup_81aed2633f52cb1b81d81858dc4f7590.setContent(html_97a7efd18031570a50d2dc2ac2a4ffd0);
+            
+        
+
+        circle_marker_ef25a4581e33e34f6077d735d3e49d7a.bindPopup(popup_81aed2633f52cb1b81d81858dc4f7590)
+        ;
+
+        
+    
+    
+            var circle_marker_198a1a4b97a1b256c049c13b53968ece = L.circleMarker(
+                [-30.54527777, -53.46694443],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3da23b703375fde29c376aa17f29085f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ef69dfafcee2858684e5aa560ab07893 = $(`<div id="html_ef69dfafcee2858684e5aa560ab07893" style="width: 100.0%; height: 100.0%;"><b>CAÇAPAVA DO SUL</b><br>Código: A812<br>Chuva 24h: 0.0 mm<br>Lat: -30.5453 | Lon: -53.4669</div>`)[0];
+                popup_3da23b703375fde29c376aa17f29085f.setContent(html_ef69dfafcee2858684e5aa560ab07893);
+            
+        
+
+        circle_marker_198a1a4b97a1b256c049c13b53968ece.bindPopup(popup_3da23b703375fde29c376aa17f29085f)
+        ;
+
+        
+    
+    
+            var circle_marker_6fb195a44509ac70fc12f6b5cbaeb8c1 = L.circleMarker(
+                [-29.96555555, -51.62555554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_0ff118d2303c60842fc7bc2c8661348a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_302e243414834c2cbb8c2a538e61d5c3 = $(`<div id="html_302e243414834c2cbb8c2a538e61d5c3" style="width: 100.0%; height: 100.0%;"><b>CHARQUEADAS</b><br>Código: B812<br>Chuva 24h: 0.0 mm<br>Lat: -29.9656 | Lon: -51.6256</div>`)[0];
+                popup_0ff118d2303c60842fc7bc2c8661348a.setContent(html_302e243414834c2cbb8c2a538e61d5c3);
+            
+        
+
+        circle_marker_6fb195a44509ac70fc12f6b5cbaeb8c1.bindPopup(popup_0ff118d2303c60842fc7bc2c8661348a)
+        ;
+
+        
+    
+    
+            var circle_marker_e19618e97fb037c55bba2d882a4c5ebb = L.circleMarker(
+                [-28.60333333, -53.6736111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_9f5ce9c2e786bfd50fa05555cfa05085 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8adadea8896177ed09983fdeef28439b = $(`<div id="html_8adadea8896177ed09983fdeef28439b" style="width: 100.0%; height: 100.0%;"><b>CRUZ ALTA</b><br>Código: A853<br>Chuva 24h: 0.0 mm<br>Lat: -28.6033 | Lon: -53.6736</div>`)[0];
+                popup_9f5ce9c2e786bfd50fa05555cfa05085.setContent(html_8adadea8896177ed09983fdeef28439b);
+            
+        
+
+        circle_marker_e19618e97fb037c55bba2d882a4c5ebb.bindPopup(popup_9f5ce9c2e786bfd50fa05555cfa05085)
+        ;
+
+        
+    
+    
+            var circle_marker_e95a2e33d4f06c8ceba5697e3fab7bed = L.circleMarker(
+                [-31.0025, -54.61805554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_91e1c915555243d44496cf10d999afc1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dec0b1ca59f936a089b2b796639c5231 = $(`<div id="html_dec0b1ca59f936a089b2b796639c5231" style="width: 100.0%; height: 100.0%;"><b>DOM PEDRITO</b><br>Código: A881<br>Chuva 24h: 0.0 mm<br>Lat: -31.0025 | Lon: -54.6181</div>`)[0];
+                popup_91e1c915555243d44496cf10d999afc1.setContent(html_dec0b1ca59f936a089b2b796639c5231);
+            
+        
+
+        circle_marker_e95a2e33d4f06c8ceba5697e3fab7bed.bindPopup(popup_91e1c915555243d44496cf10d999afc1)
+        ;
+
+        
+    
+    
+            var circle_marker_02effb8720ddf6a1a0434d8a402f1250 = L.circleMarker(
+                [-30.54305555, -52.52472221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3389abaee9a4d1dc5ac174bbf882f45d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ff64f336a99231666f80ea5926158c05 = $(`<div id="html_ff64f336a99231666f80ea5926158c05" style="width: 100.0%; height: 100.0%;"><b>ENCRUZILHADA DO SUL</b><br>Código: A893<br>Chuva 24h: 0.0 mm<br>Lat: -30.5431 | Lon: -52.5247</div>`)[0];
+                popup_3389abaee9a4d1dc5ac174bbf882f45d.setContent(html_ff64f336a99231666f80ea5926158c05);
+            
+        
+
+        circle_marker_02effb8720ddf6a1a0434d8a402f1250.bindPopup(popup_3389abaee9a4d1dc5ac174bbf882f45d)
+        ;
+
+        
+    
+    
+            var circle_marker_70b010324de6f92f2217112e2bdfd5f3 = L.circleMarker(
+                [-32.01277777, -53.40305555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_e9a6b201fd7796539100ec1c766559a1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9532d990c938d7b278c908c779834a74 = $(`<div id="html_9532d990c938d7b278c908c779834a74" style="width: 100.0%; height: 100.0%;"><b>HERVAL</b><br>Código: B826<br>Chuva 24h: 0.0 mm<br>Lat: -32.0128 | Lon: -53.4031</div>`)[0];
+                popup_e9a6b201fd7796539100ec1c766559a1.setContent(html_9532d990c938d7b278c908c779834a74);
+            
+        
+
+        circle_marker_70b010324de6f92f2217112e2bdfd5f3.bindPopup(popup_e9a6b201fd7796539100ec1c766559a1)
+        ;
+
+        
+    
+    
+            var circle_marker_9d6930030b52921fc4f49436bb5e5585 = L.circleMarker(
+                [-28.65333333, -53.11194444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3233b37091e671a892937b8c85069563 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_155947365dce248d046f4f90a771feff = $(`<div id="html_155947365dce248d046f4f90a771feff" style="width: 100.0%; height: 100.0%;"><b>IBIRUBA</b><br>Código: A883<br>Chuva 24h: 0.0 mm<br>Lat: -28.6533 | Lon: -53.1119</div>`)[0];
+                popup_3233b37091e671a892937b8c85069563.setContent(html_155947365dce248d046f4f90a771feff);
+            
+        
+
+        circle_marker_9d6930030b52921fc4f49436bb5e5585.bindPopup(popup_3233b37091e671a892937b8c85069563)
+        ;
+
+        
+    
+    
+            var circle_marker_fb203db01f39753a2ba9b0035e4c1bfd = L.circleMarker(
+                [-32.53472221, -53.37583332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3580e6eb6411f0ec07b6178cb0c2af6b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_57f6ad97dc90935fc370867564e7370e = $(`<div id="html_57f6ad97dc90935fc370867564e7370e" style="width: 100.0%; height: 100.0%;"><b>JAGUARÃO</b><br>Código: A836<br>Chuva 24h: 0.0 mm<br>Lat: -32.5347 | Lon: -53.3758</div>`)[0];
+                popup_3580e6eb6411f0ec07b6178cb0c2af6b.setContent(html_57f6ad97dc90935fc370867564e7370e);
+            
+        
+
+        circle_marker_fb203db01f39753a2ba9b0035e4c1bfd.bindPopup(popup_3580e6eb6411f0ec07b6178cb0c2af6b)
+        ;
+
+        
+    
+    
+            var circle_marker_27f5db4c3a92cd280e18af91aea57480 = L.circleMarker(
+                [-28.222381, -51.512845],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_83f607af005b8a67d82c85382e4cfbdb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_87f34002cb4013f8a121a4be33c2f75a = $(`<div id="html_87f34002cb4013f8a121a4be33c2f75a" style="width: 100.0%; height: 100.0%;"><b>LAGOA VERMELHA</b><br>Código: A844<br>Chuva 24h: 0.0 mm<br>Lat: -28.2224 | Lon: -51.5128</div>`)[0];
+                popup_83f607af005b8a67d82c85382e4cfbdb.setContent(html_87f34002cb4013f8a121a4be33c2f75a);
+            
+        
+
+        circle_marker_27f5db4c3a92cd280e18af91aea57480.bindPopup(popup_83f607af005b8a67d82c85382e4cfbdb)
+        ;
+
+        
+    
+    
+            var circle_marker_61e1fdd2930d6fe5e52cab7e570d166f = L.circleMarker(
+                [-30.12444443, -52.05083333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_a253fc6c9b8b98f61903334ed6457db2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8cb4f6543840d6cbdd6bb9cf0d8a0691 = $(`<div id="html_8cb4f6543840d6cbdd6bb9cf0d8a0691" style="width: 100.0%; height: 100.0%;"><b>MINAS DO LEÃO</b><br>Código: B813<br>Chuva 24h: 0.0 mm<br>Lat: -30.1244 | Lon: -52.0508</div>`)[0];
+                popup_a253fc6c9b8b98f61903334ed6457db2.setContent(html_8cb4f6543840d6cbdd6bb9cf0d8a0691);
+            
+        
+
+        circle_marker_61e1fdd2930d6fe5e52cab7e570d166f.bindPopup(popup_a253fc6c9b8b98f61903334ed6457db2)
+        ;
+
+        
+    
+    
+            var circle_marker_52e67768e342780c93792458fbc3a3dc = L.circleMarker(
+                [-29.75861111, -51.4361111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_cdccf86e57d4e13e8adc934f05bd5e03 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4ed6ef184bb16bb1d4a33fafe0948b0e = $(`<div id="html_4ed6ef184bb16bb1d4a33fafe0948b0e" style="width: 100.0%; height: 100.0%;"><b>MONTENEGRO</b><br>Código: B814<br>Chuva 24h: 0.0 mm<br>Lat: -29.7586 | Lon: -51.4361</div>`)[0];
+                popup_cdccf86e57d4e13e8adc934f05bd5e03.setContent(html_4ed6ef184bb16bb1d4a33fafe0948b0e);
+            
+        
+
+        circle_marker_52e67768e342780c93792458fbc3a3dc.bindPopup(popup_cdccf86e57d4e13e8adc934f05bd5e03)
+        ;
+
+        
+    
+    
+            var circle_marker_86143bf902ea17179e2868fc4ff93ced = L.circleMarker(
+                [-30.09666666, -51.67388888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_5866ad8a0a02285f2898f78aff4433cd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2edcf47c935539088ff809238f417094 = $(`<div id="html_2edcf47c935539088ff809238f417094" style="width: 100.0%; height: 100.0%;"><b>PARQUE ELDORADO</b><br>Código: B810<br>Chuva 24h: 0.0 mm<br>Lat: -30.0967 | Lon: -51.6739</div>`)[0];
+                popup_5866ad8a0a02285f2898f78aff4433cd.setContent(html_2edcf47c935539088ff809238f417094);
+            
+        
+
+        circle_marker_86143bf902ea17179e2868fc4ff93ced.bindPopup(popup_5866ad8a0a02285f2898f78aff4433cd)
+        ;
+
+        
+    
+    
+            var circle_marker_bb0191b7887044be6d8d18cb39ee6398 = L.circleMarker(
+                [-31.57472221, -53.38833333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_8429108dd27e399325c2b012f52fd8ed = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16d196cbb40ac8f43e7c14679b48dd10 = $(`<div id="html_16d196cbb40ac8f43e7c14679b48dd10" style="width: 100.0%; height: 100.0%;"><b>PINHEIRO MACHADO</b><br>Código: B823<br>Chuva 24h: 0.0 mm<br>Lat: -31.5747 | Lon: -53.3883</div>`)[0];
+                popup_8429108dd27e399325c2b012f52fd8ed.setContent(html_16d196cbb40ac8f43e7c14679b48dd10);
+            
+        
+
+        circle_marker_bb0191b7887044be6d8d18cb39ee6398.bindPopup(popup_8429108dd27e399325c2b012f52fd8ed)
+        ;
+
+        
+    
+    
+            var circle_marker_ff0620a33729928c7363d388c4c63c04 = L.circleMarker(
+                [-30.1861111, -51.17833332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_4330e47bad1dbf30396f1dc072fafdac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d5d1f1170fcd9b38fcb14be9883b6126 = $(`<div id="html_d5d1f1170fcd9b38fcb14be9883b6126" style="width: 100.0%; height: 100.0%;"><b>PORTO ALEGRE - BELEM NOVO</b><br>Código: B825<br>Chuva 24h: 0.0 mm<br>Lat: -30.1861 | Lon: -51.1783</div>`)[0];
+                popup_4330e47bad1dbf30396f1dc072fafdac.setContent(html_d5d1f1170fcd9b38fcb14be9883b6126);
+            
+        
+
+        circle_marker_ff0620a33729928c7363d388c4c63c04.bindPopup(popup_4330e47bad1dbf30396f1dc072fafdac)
+        ;
+
+        
+    
+    
+            var circle_marker_2e3683fb5ecdd207331c568e6eb1b6ee = L.circleMarker(
+                [-30.05361111, -51.17472221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_8822bf826de1a3c68d7a19e3893202a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7443765b79db2df23f1967b0c59542c7 = $(`<div id="html_7443765b79db2df23f1967b0c59542c7" style="width: 100.0%; height: 100.0%;"><b>PORTO ALEGRE - JARDIM BOTÂNICO</b><br>Código: A801<br>Chuva 24h: 0.0 mm<br>Lat: -30.0536 | Lon: -51.1747</div>`)[0];
+                popup_8822bf826de1a3c68d7a19e3893202a3.setContent(html_7443765b79db2df23f1967b0c59542c7);
+            
+        
+
+        circle_marker_2e3683fb5ecdd207331c568e6eb1b6ee.bindPopup(popup_8822bf826de1a3c68d7a19e3893202a3)
+        ;
+
+        
+    
+    
+            var circle_marker_5cdb2d83dda7302399a8c3489b5ec812 = L.circleMarker(
+                [-30.3686111, -56.43722221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_f6d9239b6e9c3335c84647a37c7d2a5b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_17dd3bf6d8920b2f764f290260fdf467 = $(`<div id="html_17dd3bf6d8920b2f764f290260fdf467" style="width: 100.0%; height: 100.0%;"><b>QUARAI</b><br>Código: A831<br>Chuva 24h: 0.0 mm<br>Lat: -30.3686 | Lon: -56.4372</div>`)[0];
+                popup_f6d9239b6e9c3335c84647a37c7d2a5b.setContent(html_17dd3bf6d8920b2f764f290260fdf467);
+            
+        
+
+        circle_marker_5cdb2d83dda7302399a8c3489b5ec812.bindPopup(popup_f6d9239b6e9c3335c84647a37c7d2a5b)
+        ;
+
+        
+    
+    
+            var circle_marker_eb7a2ebc4fabf21eb93bfbc17c74888c = L.circleMarker(
+                [-32.07888888, -52.16777777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3acd06f1fdb2cbc36247975c6da8c5f6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a16d1719525012c891970b2478373b2a = $(`<div id="html_a16d1719525012c891970b2478373b2a" style="width: 100.0%; height: 100.0%;"><b>RIO GRANDE</b><br>Código: A802<br>Chuva 24h: 0.0 mm<br>Lat: -32.0789 | Lon: -52.1678</div>`)[0];
+                popup_3acd06f1fdb2cbc36247975c6da8c5f6.setContent(html_a16d1719525012c891970b2478373b2a);
+            
+        
+
+        circle_marker_eb7a2ebc4fabf21eb93bfbc17c74888c.bindPopup(popup_3acd06f1fdb2cbc36247975c6da8c5f6)
+        ;
+
+        
+    
+    
+            var circle_marker_5c45a8b4568ad432bb498e8c1ee171cf = L.circleMarker(
+                [-29.87222221, -52.38194443],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_431471b795f584fecb025c5c95ef974c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_83d742c700256f9d55e6a9db7f80e394 = $(`<div id="html_83d742c700256f9d55e6a9db7f80e394" style="width: 100.0%; height: 100.0%;"><b>RIO PARDO</b><br>Código: A813<br>Chuva 24h: 0.0 mm<br>Lat: -29.8722 | Lon: -52.3819</div>`)[0];
+                popup_431471b795f584fecb025c5c95ef974c.setContent(html_83d742c700256f9d55e6a9db7f80e394);
+            
+        
+
+        circle_marker_5c45a8b4568ad432bb498e8c1ee171cf.bindPopup(popup_431471b795f584fecb025c5c95ef974c)
+        ;
+
+        
+    
+    
+            var circle_marker_53f5dc508f177d5e5efae85c7cf13e42 = L.circleMarker(
+                [-29.65583333, -50.61805554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_845e4b9b17e6710a65f7325b9b141ce8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_924dd9149857e2f01008b35f0b7055bf = $(`<div id="html_924dd9149857e2f01008b35f0b7055bf" style="width: 100.0%; height: 100.0%;"><b>ROLANTE</b><br>Código: B819<br>Chuva 24h: 0.0 mm<br>Lat: -29.6558 | Lon: -50.6181</div>`)[0];
+                popup_845e4b9b17e6710a65f7325b9b141ce8.setContent(html_924dd9149857e2f01008b35f0b7055bf);
+            
+        
+
+        circle_marker_53f5dc508f177d5e5efae85c7cf13e42.bindPopup(popup_845e4b9b17e6710a65f7325b9b141ce8)
+        ;
+
+        
+    
+    
+            var circle_marker_3ad946119962f8aedf405a2ffd48d3ca = L.circleMarker(
+                [-29.72499999, -53.72055554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_918d60e6512a420127cb59dc14dbb37f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4d1db41fb6a8a24915f3e2aa3c49e9ba = $(`<div id="html_4d1db41fb6a8a24915f3e2aa3c49e9ba" style="width: 100.0%; height: 100.0%;"><b>SANTA MARIA</b><br>Código: A803<br>Chuva 24h: 0.0 mm<br>Lat: -29.7250 | Lon: -53.7206</div>`)[0];
+                popup_918d60e6512a420127cb59dc14dbb37f.setContent(html_4d1db41fb6a8a24915f3e2aa3c49e9ba);
+            
+        
+
+        circle_marker_3ad946119962f8aedf405a2ffd48d3ca.bindPopup(popup_918d60e6512a420127cb59dc14dbb37f)
+        ;
+
+        
+    
+    
+            var circle_marker_60207e2b26c79006a8029e0f0469e9e3 = L.circleMarker(
+                [-29.47916666, -51.01333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_eaa58cf4242ac62e3a7889d80ffc6617 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e043b9ea750f49b6391168c0b7bb0d4e = $(`<div id="html_e043b9ea750f49b6391168c0b7bb0d4e" style="width: 100.0%; height: 100.0%;"><b>SANTA MARIA DO HERVAL</b><br>Código: B816<br>Chuva 24h: 0.0 mm<br>Lat: -29.4792 | Lon: -51.0133</div>`)[0];
+                popup_eaa58cf4242ac62e3a7889d80ffc6617.setContent(html_e043b9ea750f49b6391168c0b7bb0d4e);
+            
+        
+
+        circle_marker_60207e2b26c79006a8029e0f0469e9e3.bindPopup(popup_eaa58cf4242ac62e3a7889d80ffc6617)
+        ;
+
+        
+    
+    
+            var circle_marker_6a4136d5d86f385497e3a49a64af66cb = L.circleMarker(
+                [-33.53166666, -53.35027777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_3b44d27b70d0c9763c4b9a1be1fddea1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e99abf4ae0a3acba11db81719832acd7 = $(`<div id="html_e99abf4ae0a3acba11db81719832acd7" style="width: 100.0%; height: 100.0%;"><b>SANTA VITORIA DO PALMAR (CENTRO)</b><br>Código: B830<br>Chuva 24h: 0.0 mm<br>Lat: -33.5317 | Lon: -53.3503</div>`)[0];
+                popup_3b44d27b70d0c9763c4b9a1be1fddea1.setContent(html_e99abf4ae0a3acba11db81719832acd7);
+            
+        
+
+        circle_marker_6a4136d5d86f385497e3a49a64af66cb.bindPopup(popup_3b44d27b70d0c9763c4b9a1be1fddea1)
+        ;
+
+        
+    
+    
+            var circle_marker_b52ef0e91c40bb48751f275bca1609b8 = L.circleMarker(
+                [-32.83583333, -52.6436111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_361f8f4bc0c6b802a6293fa117f200e6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_479cd7332f006318857316c08683712f = $(`<div id="html_479cd7332f006318857316c08683712f" style="width: 100.0%; height: 100.0%;"><b>SANTA VITORIA DO PALMAR (RESERVA DO TAIM)</b><br>Código: B829<br>Chuva 24h: 0.0 mm<br>Lat: -32.8358 | Lon: -52.6436</div>`)[0];
+                popup_361f8f4bc0c6b802a6293fa117f200e6.setContent(html_479cd7332f006318857316c08683712f);
+            
+        
+
+        circle_marker_b52ef0e91c40bb48751f275bca1609b8.bindPopup(popup_361f8f4bc0c6b802a6293fa117f200e6)
+        ;
+
+        
+    
+    
+            var circle_marker_f19bff5f45efe7c4a898a0bb10221077 = L.circleMarker(
+                [-30.85861111, -53.15555555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_13ace284124955f7c86b3cefd2df3d29 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b407e887212ce865585a9bb171f966e5 = $(`<div id="html_b407e887212ce865585a9bb171f966e5" style="width: 100.0%; height: 100.0%;"><b>SANTANA DA BOA VISTA</b><br>Código: B821<br>Chuva 24h: 0.0 mm<br>Lat: -30.8586 | Lon: -53.1556</div>`)[0];
+                popup_13ace284124955f7c86b3cefd2df3d29.setContent(html_b407e887212ce865585a9bb171f966e5);
+            
+        
+
+        circle_marker_f19bff5f45efe7c4a898a0bb10221077.bindPopup(popup_13ace284124955f7c86b3cefd2df3d29)
+        ;
+
+        
+    
+    
+            var circle_marker_8c7995e588043c33c6fc2a5a45c7cbe8 = L.circleMarker(
+                [-29.191599, -54.885653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_47861ac533bb7a757d8010f0eb9b31c2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a674fa53c2756e45d2f5eaeeabb8b713 = $(`<div id="html_a674fa53c2756e45d2f5eaeeabb8b713" style="width: 100.0%; height: 100.0%;"><b>SANTIAGO</b><br>Código: A833<br>Chuva 24h: 0.0 mm<br>Lat: -29.1916 | Lon: -54.8857</div>`)[0];
+                popup_47861ac533bb7a757d8010f0eb9b31c2.setContent(html_a674fa53c2756e45d2f5eaeeabb8b713);
+            
+        
+
+        circle_marker_8c7995e588043c33c6fc2a5a45c7cbe8.bindPopup(popup_47861ac533bb7a757d8010f0eb9b31c2)
+        ;
+
+        
+    
+    
+            var circle_marker_8c47baf531fbad8dc025a8f346fdced4 = L.circleMarker(
+                [-29.81388888, -51.15666666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_fb26a373881ed4d0bc556b9e661c1471 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5de6321e1c06ea77d76b93764ae13cfb = $(`<div id="html_5de6321e1c06ea77d76b93764ae13cfb" style="width: 100.0%; height: 100.0%;"><b>SAPUCAIA DO SUL</b><br>Código: B809<br>Chuva 24h: 0.0 mm<br>Lat: -29.8139 | Lon: -51.1567</div>`)[0];
+                popup_fb26a373881ed4d0bc556b9e661c1471.setContent(html_5de6321e1c06ea77d76b93764ae13cfb);
+            
+        
+
+        circle_marker_8c47baf531fbad8dc025a8f346fdced4.bindPopup(popup_fb26a373881ed4d0bc556b9e661c1471)
+        ;
+
+        
+    
+    
+            var circle_marker_5a8a55ce405c3fac21a80d308cdd99da = L.circleMarker(
+                [-28.70472222, -51.87083332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_0d15c9565ad604e53d67ef292f4526c3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7d0b9a541e9467d42ccb606e6335ff4e = $(`<div id="html_7d0b9a541e9467d42ccb606e6335ff4e" style="width: 100.0%; height: 100.0%;"><b>SERAFINA CORRÊA</b><br>Código: A894<br>Chuva 24h: 0.0 mm<br>Lat: -28.7047 | Lon: -51.8708</div>`)[0];
+                popup_0d15c9565ad604e53d67ef292f4526c3.setContent(html_7d0b9a541e9467d42ccb606e6335ff4e);
+            
+        
+
+        circle_marker_5a8a55ce405c3fac21a80d308cdd99da.bindPopup(popup_0d15c9565ad604e53d67ef292f4526c3)
+        ;
+
+        
+    
+    
+            var circle_marker_cc1ef859e8a26cf642f23cac5a33f203 = L.circleMarker(
+                [-30.49416666, -51.66333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_50a388c8518c7a28e8e2d480117e48cf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5fca7267c43f488944267ec40213c105 = $(`<div id="html_5fca7267c43f488944267ec40213c105" style="width: 100.0%; height: 100.0%;"><b>SERTÃO SANTANA</b><br>Código: B811<br>Chuva 24h: 0.0 mm<br>Lat: -30.4942 | Lon: -51.6633</div>`)[0];
+                popup_50a388c8518c7a28e8e2d480117e48cf.setContent(html_5fca7267c43f488944267ec40213c105);
+            
+        
+
+        circle_marker_cc1ef859e8a26cf642f23cac5a33f203.bindPopup(popup_50a388c8518c7a28e8e2d480117e48cf)
+        ;
+
+        
+    
+    
+            var circle_marker_3c077251a395cc0738c4c1db47828da4 = L.circleMarker(
+                [-28.859211, -52.542387],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_5311eff29c3f1e95c90250b83645cae9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7aaea189679ac02870282894f5330e17 = $(`<div id="html_7aaea189679ac02870282894f5330e17" style="width: 100.0%; height: 100.0%;"><b>SOLEDADE</b><br>Código: A837<br>Chuva 24h: 0.0 mm<br>Lat: -28.8592 | Lon: -52.5424</div>`)[0];
+                popup_5311eff29c3f1e95c90250b83645cae9.setContent(html_7aaea189679ac02870282894f5330e17);
+            
+        
+
+        circle_marker_3c077251a395cc0738c4c1db47828da4.bindPopup(popup_5311eff29c3f1e95c90250b83645cae9)
+        ;
+
+        
+    
+    
+            var circle_marker_63ef50a347c3fd1d666ddb35a91e1ff5 = L.circleMarker(
+                [-33.74222221, -53.37222221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_63e6947b09441f0e0f082a18ff50187d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5822fc6a3abd357b0c80954f26184f9 = $(`<div id="html_b5822fc6a3abd357b0c80954f26184f9" style="width: 100.0%; height: 100.0%;"><b>Santa Vitória do Palmar - Barra do Chuí</b><br>Código: A899<br>Chuva 24h: 0.0 mm<br>Lat: -33.7422 | Lon: -53.3722</div>`)[0];
+                popup_63e6947b09441f0e0f082a18ff50187d.setContent(html_b5822fc6a3abd357b0c80954f26184f9);
+            
+        
+
+        circle_marker_63ef50a347c3fd1d666ddb35a91e1ff5.bindPopup(popup_63e6947b09441f0e0f082a18ff50187d)
+        ;
+
+        
+    
+    
+            var circle_marker_a1622f6865f7e6f8918375a119100ba7 = L.circleMarker(
+                [-28.65, -56.01638888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_211adb91f7f9c5f2b2bdc1f3e9633864 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_070b735e23023c5c773c1507c86c22d8 = $(`<div id="html_070b735e23023c5c773c1507c86c22d8" style="width: 100.0%; height: 100.0%;"><b>SÃO BORJA</b><br>Código: A830<br>Chuva 24h: 0.0 mm<br>Lat: -28.6500 | Lon: -56.0164</div>`)[0];
+                popup_211adb91f7f9c5f2b2bdc1f3e9633864.setContent(html_070b735e23023c5c773c1507c86c22d8);
+            
+        
+
+        circle_marker_a1622f6865f7e6f8918375a119100ba7.bindPopup(popup_211adb91f7f9c5f2b2bdc1f3e9633864)
+        ;
+
+        
+    
+    
+            var circle_marker_6f96e34dc5db3ad21daeef3fe05f584b = L.circleMarker(
+                [-29.44222221, -50.56027777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_a29ed8d35dd7ab90002a42552d5c4776 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5950bc6df1cd1e7cdda4d8b2f27a23be = $(`<div id="html_5950bc6df1cd1e7cdda4d8b2f27a23be" style="width: 100.0%; height: 100.0%;"><b>SÃO FRANCISCO DE PAULA</b><br>Código: B820<br>Chuva 24h: 0.0 mm<br>Lat: -29.4422 | Lon: -50.5603</div>`)[0];
+                popup_a29ed8d35dd7ab90002a42552d5c4776.setContent(html_5950bc6df1cd1e7cdda4d8b2f27a23be);
+            
+        
+
+        circle_marker_6f96e34dc5db3ad21daeef3fe05f584b.bindPopup(popup_a29ed8d35dd7ab90002a42552d5c4776)
+        ;
+
+        
+    
+    
+            var circle_marker_c6fcfdf081d7113fe977e4338f13cd98 = L.circleMarker(
+                [-30.34138888, -54.31083333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_2d0524e994d6bb1882e8171be3f411fb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_40651b2509c1c86141dc3dd52eda0061 = $(`<div id="html_40651b2509c1c86141dc3dd52eda0061" style="width: 100.0%; height: 100.0%;"><b>SÃO GABRIEL</b><br>Código: A832<br>Chuva 24h: 0.0 mm<br>Lat: -30.3414 | Lon: -54.3108</div>`)[0];
+                popup_2d0524e994d6bb1882e8171be3f411fb.setContent(html_40651b2509c1c86141dc3dd52eda0061);
+            
+        
+
+        circle_marker_c6fcfdf081d7113fe977e4338f13cd98.bindPopup(popup_2d0524e994d6bb1882e8171be3f411fb)
+        ;
+
+        
+    
+    
+            var circle_marker_356dc0fa4716c2c3128c25c9fe72a164 = L.circleMarker(
+                [-28.7486111, -50.05777777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_c11d11fcb6ef6d525b492e819d242cfa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3bfb07d8e0693e161b7a6b29b5d840c3 = $(`<div id="html_3bfb07d8e0693e161b7a6b29b5d840c3" style="width: 100.0%; height: 100.0%;"><b>SÃO JOSÉ DOS AUSENTES</b><br>Código: A829<br>Chuva 24h: 0.0 mm<br>Lat: -28.7486 | Lon: -50.0578</div>`)[0];
+                popup_c11d11fcb6ef6d525b492e819d242cfa.setContent(html_3bfb07d8e0693e161b7a6b29b5d840c3);
+            
+        
+
+        circle_marker_356dc0fa4716c2c3128c25c9fe72a164.bindPopup(popup_c11d11fcb6ef6d525b492e819d242cfa)
+        ;
+
+        
+    
+    
+            var circle_marker_bd67c7fc89ab542e81b8c2e3b19f2c6d = L.circleMarker(
+                [-28.41722221, -54.9625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_ea6bd3cdc8b603b5416dab4ba204ef5e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7bbc936c34d4c7a1add96b9f7fa6678c = $(`<div id="html_7bbc936c34d4c7a1add96b9f7fa6678c" style="width: 100.0%; height: 100.0%;"><b>SÃO LUIZ GONZAGA</b><br>Código: A852<br>Chuva 24h: 0.0 mm<br>Lat: -28.4172 | Lon: -54.9625</div>`)[0];
+                popup_ea6bd3cdc8b603b5416dab4ba204ef5e.setContent(html_7bbc936c34d4c7a1add96b9f7fa6678c);
+            
+        
+
+        circle_marker_bd67c7fc89ab542e81b8c2e3b19f2c6d.bindPopup(popup_ea6bd3cdc8b603b5416dab4ba204ef5e)
+        ;
+
+        
+    
+    
+            var circle_marker_adbda83c7bd9dce3631820d8d42e339a = L.circleMarker(
+                [-29.41361111, -49.80361111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_f5157434468e9c0d1cd8787786d59572 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_89264b959b8c4d905f97abd6f93608bd = $(`<div id="html_89264b959b8c4d905f97abd6f93608bd" style="width: 100.0%; height: 100.0%;"><b>TORRES</b><br>Código: B841<br>Chuva 24h: 0.0 mm<br>Lat: -29.4136 | Lon: -49.8036</div>`)[0];
+                popup_f5157434468e9c0d1cd8787786d59572.setContent(html_89264b959b8c4d905f97abd6f93608bd);
+            
+        
+
+        circle_marker_adbda83c7bd9dce3631820d8d42e339a.bindPopup(popup_f5157434468e9c0d1cd8787786d59572)
+        ;
+
+        
+    
+    
+            var circle_marker_0d51536c4056aee64099019e6f2a449b = L.circleMarker(
+                [-30.01027777, -50.13583333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_9b4d6a519cccd444efed4e6458d676cc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9c99ce94cf1903ad5e15f6e17cb3caca = $(`<div id="html_9c99ce94cf1903ad5e15f6e17cb3caca" style="width: 100.0%; height: 100.0%;"><b>TRAMANDAI</b><br>Código: A834<br>Chuva 24h: 0.0 mm<br>Lat: -30.0103 | Lon: -50.1358</div>`)[0];
+                popup_9b4d6a519cccd444efed4e6458d676cc.setContent(html_9c99ce94cf1903ad5e15f6e17cb3caca);
+            
+        
+
+        circle_marker_0d51536c4056aee64099019e6f2a449b.bindPopup(popup_9b4d6a519cccd444efed4e6458d676cc)
+        ;
+
+        
+    
+    
+            var circle_marker_6f4f3669bded6b102af2e6d62f4d2d24 = L.circleMarker(
+                [-29.08944444, -53.82666666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_e11c18f6ad11f697ad03bbf8c22babca = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b60b3d2f85d2e310027047cd67e99980 = $(`<div id="html_b60b3d2f85d2e310027047cd67e99980" style="width: 100.0%; height: 100.0%;"><b>TUPANCIRETA</b><br>Código: A886<br>Chuva 24h: 0.0 mm<br>Lat: -29.0894 | Lon: -53.8267</div>`)[0];
+                popup_e11c18f6ad11f697ad03bbf8c22babca.setContent(html_b60b3d2f85d2e310027047cd67e99980);
+            
+        
+
+        circle_marker_6f4f3669bded6b102af2e6d62f4d2d24.bindPopup(popup_e11c18f6ad11f697ad03bbf8c22babca)
+        ;
+
+        
+    
+    
+            var circle_marker_569ab639aeab1dd44d928bbe432b9f1f = L.circleMarker(
+                [-28.51361111, -50.88277777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_e7b36c62128e80a59d75cedf81d5dcea);
+        
+    
+        var popup_94e2774ad31598c85428ec2e4d928b7f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9e72d84cc672bc047c8e5af49be7656f = $(`<div id="html_9e72d84cc672bc047c8e5af49be7656f" style="width: 100.0%; height: 100.0%;"><b>VACARIA</b><br>Código: A880<br>Chuva 24h: 0.0 mm<br>Lat: -28.5136 | Lon: -50.8828</div>`)[0];
+                popup_94e2774ad31598c85428ec2e4d928b7f.setContent(html_9e72d84cc672bc047c8e5af49be7656f);
+            
+        
+
+        circle_marker_569ab639aeab1dd44d928bbe432b9f1f.bindPopup(popup_94e2774ad31598c85428ec2e4d928b7f)
+        ;
+
+        
+    
+</script>
+</html>
